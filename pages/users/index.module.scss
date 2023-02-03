@@ -1,0 +1,29 @@
+.user {
+	margin: 5px 0;
+	transition: .4s padding;
+
+	&_name {
+		padding-bottom: 20px;
+	}
+
+	&_list_info {
+		padding-left: 20px;
+
+		li {
+			padding: 3px 0;
+		}
+	}
+
+	&:hover {
+		padding-left: 10px;
+
+		&:before {
+			color: gold;
+		}
+	}
+
+	&:before {
+		content: '-';
+		padding-right: 9px;
+	}
+}

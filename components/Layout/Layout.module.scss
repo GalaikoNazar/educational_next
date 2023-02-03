@@ -1,0 +1,22 @@
+.header {
+	display: flex;
+	align-items: center;
+	grid-gap: 15px;
+	margin-bottom: 15px;
+	background: #666;
+	padding: 20px;
+
+	a {
+		color: #fff
+	}
+}
+
+.wrapper {
+	padding: 15px;
+
+	.hz {
+		width: 100px;
+		height: 100px;
+		background: red;
+	}
+}
